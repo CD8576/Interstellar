@@ -171,3 +171,7 @@ server.on("listening", () => {
 });
 
 server.listen({ port: PORT });
+
+<?php
+    header("Access-Control-Allow-Origin: https://cd8576.github.io/school-thing/");
+?>
